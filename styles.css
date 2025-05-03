@@ -6,9 +6,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  max-width: 1200px;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
+.menu {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.logo {
+  align-self: flex-start;
+}
 
 .homepage {
   background-color: #1f2937;
@@ -19,9 +28,6 @@ body {
   gap: 30px;
 }
 
-.logo {
-  align-self: flex-start;
-}
 
 .left-column {
   flex: 1;
@@ -57,4 +63,32 @@ body {
   width: 100%;
   display: flex;
   padding: 10px;
+}
+
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 60px;
+}
+
+.quote p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.quote h4 {
+  text-align: end;
+  font-style: oblique;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  color: aliceblue;
+  text-align: center;
+  font-size: 12px;
 }
