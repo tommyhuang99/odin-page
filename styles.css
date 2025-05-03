@@ -1,5 +1,4 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,8 +6,55 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
 }
 
-.homepage{
-  background-color: #1f2937 ;
+
+.homepage {
+  background-color: #1f2937;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.homepage h2 {
+  flex: auto;
+  font-size: 40px;
+  color: aliceblue;
+
+}
+
+.homepage p {
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.homepage button {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 12px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.image-placeholder {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
 }
